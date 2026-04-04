@@ -1,0 +1,32 @@
+{
+  "name": "marine-ranch-visualization-platform",
+  "version": "1.0.0",
+  "description": "智慧海洋牧场可视化平台 - 大学生计算机设计大赛作品",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "marine",
+    "ocean",
+    "ranch",
+    "visualization",
+    "cesium",
+    "echarts",
+    "vue3",
+    "websocket"
+  ],
+  "author": "Marine Ranch Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/marine-ranch.git"
+  },
+  "dependencies": {
+    "echarts-gl": "^2.0.9"
+  }
+}
+
+
