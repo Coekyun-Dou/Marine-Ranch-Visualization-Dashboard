@@ -12,7 +12,7 @@ const fs = require('fs');
 const multer = require('multer');
 
 // DeepSeek API 配置
-const DEEPSEEK_API_KEY = 'sk-cf29ab77b9ef4d3089a975b1be8fd0ae';
+const DEEPSEEK_API_KEY = 'your-deepseek-api-key';
 const DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions';
 
 const app = express();
